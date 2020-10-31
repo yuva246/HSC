@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>  Code Body </title>
+    <link rel="stylesheet" type="text/css" href="twostyle.css">
+    
+    </head>
+    <body>
+    <p> HTML </p>
+     <pre class="one"> 
+     &lt;!DOCTYPE html&gt;
+&lt;html&gt;
+    &lt;head&gt;
+    &lt;title&gt; eyes &lt;/title&gt;
+    &lt;link rel="stylesheet" type="text/css" href="style.css"&gt;
+    
+    &lt;/head&gt;
+   &lt; body&gt;
+    &lt; div class="pupil"&gt;  &lt;/div&gt;
+     &lt;div class="pupil"&gt;  &lt;/div&gt;
+    &lt;/body&gt; 
+&lt;/html&gt;
+      </pre>
+      <p> CSS </p>
+      <pre class="two"> 
+       *{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ 
+} 
+ body { 
+ background: brown;
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ min-height: 100vh;
+ 
+}
+ .pupil{
+ position: relative;
+ background: #fff;
+ display: block;
+ width: 100px;
+ height: 100px;
+ margin: 0 15px;
+ border-radius: 50%;
+ 
+}
+ .pupil:before{
+ content: '';
+ position: absolute;
+ top: 50%;
+ left: 50px;
+ transform: translate(-50%, -50%);
+ width: 50px;
+ height: 50px;
+ background: #333;
+ border-radius: 50%;
+ 
+}
+</pre>
+    </body> 
+</html>
